@@ -35,6 +35,13 @@
       line-height: 32px;
       margin: 0 0 36px 0;
     }
+
+    @include vp-767 {
+      font-size: 22px;
+      line-height: 26px;
+      text-align: center;
+      margin-bottom: 0 0 15px;
+    }
   }
   
   &__slogan {
@@ -45,8 +52,15 @@
     
     @include vp-1439 {
       font-size: 18px;
-      line-height: 36px;
+      line-height: 24px;
       margin-bottom: 30px;
+    }
+
+    @include vp-767 {
+      font-size: 14px;
+      line-height: 18px;
+      margin: 0 0 23px;
+      text-align: center;
     }
   }
   
@@ -55,6 +69,7 @@
 
     @include vp-1439 {
       width: 250px;
+      margin: 0 auto;
     }
   }
   
@@ -69,11 +84,27 @@
     @include vp-1439 {
       display: none;
     }
+
+    @include vp-767 {
+      display: flex;
+    }
   }
 
   &__gallery-item {
+    @include vp-767 {
+      display: none;
+    }
+
     &--size-xl {
       grid-row: span 2;
+
+      @include vp-767 {
+        display: block;
+        grid-row: unset;
+        width: 255px;
+        height: 281px;
+        background-image: url(/images/gallery-1-mobile.png);
+      }
     }
   }
 }
