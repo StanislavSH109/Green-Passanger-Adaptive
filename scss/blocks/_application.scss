@@ -1,5 +1,13 @@
 .application {
   padding: 0 0 70px;
+  background-image: url('../../images/index-form-bg.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 520px 490px;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url('../../images/index-form-bg@2x.png');
+  }
 
   &__wrapper {
     max-width: 930px;

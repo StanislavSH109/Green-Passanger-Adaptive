@@ -71,6 +71,12 @@
     justify-content: flex-end;
     gap: 35px;
   }
+
+  &__search {
+   @include vp-1439 {
+    display: none;
+   }
+  }
   
   &__user-list {
     align-items: center;
@@ -79,6 +85,12 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+  }
+
+  &__user-item {
+    &:last-child {
+      display:none;
+    }
   }
   
   &__user-link {
@@ -124,6 +136,9 @@
   }
   
   &__burger {
-    display: none;
+    // display: none;
+    border: none;
+    outline: none;
+    background-color: white;
   }
 }

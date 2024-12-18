@@ -2,6 +2,10 @@
   background-color: $color-saltpan;
   padding: 28px 0;
 
+  @include vp-1439 {
+    display: none;
+  }
+
   &__list {
     display: grid;
     grid-template-columns: repeat(5, auto);
