@@ -17,6 +17,12 @@
     color: $color-white;
     background-color: $color-daisy-bush;
   }
+
+  @include vp-1439 {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 14px;
+  }
 }
 
 .btn--size-xl {
@@ -31,6 +37,7 @@
     padding: 15px;
     font-size: 15px;
     line-height: 20px;
+  
   }
 
   @include vp-767 {
