@@ -86,6 +86,11 @@ input[type=search]::-webkit-search-results-decoration {
     padding: 0 30px;
   }
 }
+@media (max-width: 767px) {
+  .container {
+    padding: 0 15px;
+  }
+}
 
 .visually-hidden {
   position: absolute;
@@ -350,6 +355,11 @@ input[type=search]::-webkit-search-results-decoration {
     padding: 12px 0;
   }
 }
+@media (max-width: 767px) {
+  .header {
+    padding: 15px 0;
+  }
+}
 .header__top {
   align-items: center;
   display: grid;
@@ -363,6 +373,11 @@ input[type=search]::-webkit-search-results-decoration {
     grid-template-columns: 1fr 284px 1fr;
   }
 }
+@media (max-width: 767px) {
+  .header__top {
+    grid-template-columns: 228px 1fr;
+  }
+}
 .header__contacts {
   align-items: flex-start;
   display: flex;
@@ -372,6 +387,11 @@ input[type=search]::-webkit-search-results-decoration {
 @media (max-width: 1439px) {
   .header__contacts {
     gap: 5px;
+  }
+}
+@media (max-width: 767px) {
+  .header__contacts {
+    display: none;
   }
 }
 .header__phone {
@@ -417,6 +437,12 @@ input[type=search]::-webkit-search-results-decoration {
     height: 50px;
   }
 }
+@media (max-width: 767px) {
+  .header__logo-svg {
+    height: 40px;
+    width: 228px;
+  }
+}
 .header__users {
   align-items: center;
   display: flex;
@@ -435,6 +461,11 @@ input[type=search]::-webkit-search-results-decoration {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+@media (max-width: 767px) {
+  .header__user-item {
+    display: none;
+  }
 }
 .header__user-item:last-child {
   display: none;
@@ -809,12 +840,30 @@ input[type=search]::-webkit-search-results-decoration {
     margin: 0 0 30px 0;
   }
 }
+@media (max-width: 767px) {
+  .footer__wrapper {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .footer__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .footer__logo-link {
   display: flex;
   margin: 0 0 25px;
 }
 .footer__social {
   margin: 0 0 0 20px;
+}
+@media (max-width: 767px) {
+  .footer__social {
+    margin: 0;
+  }
 }
 .footer__nav-list {
   padding: 0;
