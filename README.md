@@ -1,5 +1,5 @@
 <h1 align="center">Green Passanger Adaptive</h1>
-___Adaptive layout for internet shop "Green Passanger"___
+<h2><i>Adaptive layout for internet shop "Green Passanger"</i></h2>
 <p>
 <a href="https://ibb.co/Btx9vRh">
   <img src="https://i.ibb.co/9NL7Bjx/Screenshot-1.jpg" alt="Screenshot-1" border="0">
