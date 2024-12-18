@@ -791,6 +791,11 @@ input[type=search]::-webkit-search-results-decoration {
   box-shadow: 0px -2px 4px 0px rgba(0, 0, 0, 0.25);
   padding: 40px 0 20px;
 }
+@media (max-width: 1439px) {
+  .footer {
+    padding: 30px 0 15px 0;
+  }
+}
 .footer__wrapper {
   display: grid;
   grid-template-columns: 202px 1fr 202px;
@@ -801,6 +806,7 @@ input[type=search]::-webkit-search-results-decoration {
 @media (max-width: 1439px) {
   .footer__wrapper {
     grid-template-columns: 202px 1fr;
+    margin: 0 0 30px 0;
   }
 }
 .footer__logo-link {
