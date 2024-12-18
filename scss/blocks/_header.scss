@@ -7,12 +7,21 @@
   z-index: 10;
   background-color: $color-white;
 
+  @include vp-1439 {
+    padding: 12px 0;
+  }
+
   &__top {
     align-items: center;
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 320px 1fr;
     margin: 0 0 20px 0;
+
+    @include vp-1439 {
+      margin: 0;
+      grid-template-columns: 1fr 284px 1fr;
+    }
   }
   
   &__contacts {

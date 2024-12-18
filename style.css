@@ -81,6 +81,11 @@ input[type=search]::-webkit-search-results-decoration {
   padding: 0 110px;
   margin: 0 auto;
 }
+@media (max-width: 1439px) {
+  .container {
+    padding: 0 30px;
+  }
+}
 
 .visually-hidden {
   position: absolute;
@@ -340,12 +345,23 @@ input[type=search]::-webkit-search-results-decoration {
   z-index: 10;
   background-color: #ffffff;
 }
+@media (max-width: 1439px) {
+  .header {
+    padding: 12px 0;
+  }
+}
 .header__top {
   align-items: center;
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 320px 1fr;
   margin: 0 0 20px 0;
+}
+@media (max-width: 1439px) {
+  .header__top {
+    margin: 0;
+    grid-template-columns: 1fr 284px 1fr;
+  }
 }
 .header__contacts {
   align-items: flex-start;
