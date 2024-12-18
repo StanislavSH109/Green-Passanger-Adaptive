@@ -52,6 +52,10 @@
   
   &__btn {
     width: 420px;
+
+    @include vp-1439 {
+      width: 250px;
+    }
   }
   
   &__gallery-list {
