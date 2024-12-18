@@ -1,4 +1,4 @@
-# Green Passanger Adaptive
+<h1 align="center">Green Passanger Adaptive</h1>
 ___Adaptive layout for internet shop "Green Passanger"___
 <p>
 <a href="https://ibb.co/Btx9vRh">
