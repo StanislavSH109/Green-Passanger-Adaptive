@@ -80,12 +80,23 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+
+    @include vp-767 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   }
   
   &__contact {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
+    @include vp-767 {
+      align-items: center;
+    }
   }
   
   &__contact-text {
@@ -117,5 +128,9 @@
     text-align: right;
     color: $color-verdun-green;
     margin: 0;
+
+    @include vp-767 {
+      text-align: center;
+    }
   }
 }

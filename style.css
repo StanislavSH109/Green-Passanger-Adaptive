@@ -898,10 +898,23 @@ input[type=search]::-webkit-search-results-decoration {
   flex-direction: column;
   gap: 15px;
 }
+@media (max-width: 767px) {
+  .footer__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .footer__contact {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+@media (max-width: 767px) {
+  .footer__contact {
+    align-items: center;
+  }
 }
 .footer__contact-text {
   font-size: 14px;
@@ -928,4 +941,9 @@ input[type=search]::-webkit-search-results-decoration {
   text-align: right;
   color: #475009;
   margin: 0;
+}
+@media (max-width: 767px) {
+  .footer__copyright {
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
