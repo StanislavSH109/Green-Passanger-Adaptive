@@ -1,2 +1,2 @@
-# Green-Passanger-Adaptive
-Adaptive layout for internet shop "Green Passanger"
+# Green Passanger Adaptive
+___Adaptive layout for internet shop "Green Passanger"___
