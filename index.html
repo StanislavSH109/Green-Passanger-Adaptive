@@ -179,8 +179,12 @@
             </ul>
           </aside>
           <div class="about-company__image">
-            <img src="images/about-company.jpg" height="300" width="300"
+            <picture>
+              <source media="(max-width: 1439px)" srcset="images/about-company-tablet.jpg 1x, images/about-company-tablet@2x.jpg 2x">
+              <img src="images/about-company.jpg" height="300" width="300"
                 alt="Фотография девушки и растения" srcset="images/about-company@2x.jpg 2x">
+            </picture>
+            
           </div>
           <div class="about-company__description">
             <p class="about-company__text">

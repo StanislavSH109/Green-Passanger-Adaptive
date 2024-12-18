@@ -30,6 +30,7 @@
 
   &__inner {
     @include vp-767 {
+      position: relative;
       z-index: 1;
     }
   }
@@ -52,7 +53,7 @@
       font-size: 22px;
       line-height: 26px;
       text-align: center;
-      margin-bottom: 15px;
+      margin: 0 0 15px 0;
     }
   }
   
@@ -65,13 +66,13 @@
     @include vp-1439 {
       font-size: 18px;
       line-height: 24px;
-      margin-bottom: 30px;
+      margin: 0 0 30px 0;
     }
 
     @include vp-767 {
       font-size: 14px;
       line-height: 18px;
-      margin: 0 0 23px;
+      margin: 0 0 25px 0;
       text-align: center;
     }
   }
