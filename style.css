@@ -764,7 +764,10 @@ input[type=search]::-webkit-search-results-decoration {
 }
 @media (max-width: 1439px) {
   .about-company__wrapper {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 0 0 40px;
   }
 }
 
@@ -881,6 +884,11 @@ input[type=search]::-webkit-search-results-decoration {
   border-radius: 20px;
   background-color: #F4F6FA;
 }
+@media (max-width: 1439px) {
+  .aside-nav {
+    padding: 20px 30px;
+  }
+}
 
 .aside-nav__heading {
   font-size: 18px;
@@ -889,6 +897,13 @@ input[type=search]::-webkit-search-results-decoration {
   margin: 0 0 25px;
   text-align: center;
   color: #475009;
+}
+@media (max-width: 1439px) {
+  .aside-nav__heading {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 20px;
+  }
 }
 
 .aside-nav__list {
@@ -899,11 +914,31 @@ input[type=search]::-webkit-search-results-decoration {
   flex-direction: column;
   gap: 23px;
 }
+@media (max-width: 1439px) {
+  .aside-nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+}
 
 .aside-nav__link {
   display: flex;
   align-items: center;
   gap: 30px;
+}
+@media (max-width: 1439px) {
+  .aside-nav__link {
+    gap: 10px;
+  }
+}
+@media (max-width: 1439px) {
+  .aside-nav__link svg {
+    height: 45px;
+    width: 30px;
+  }
 }
 
 .aside-nav__link-text {
