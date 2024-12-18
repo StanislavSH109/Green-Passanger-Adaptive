@@ -8,6 +8,10 @@
     align-items: center;
     margin: 0 0 40px;
     gap: 20px;
+
+    @include vp-1439 {
+      grid-template-columns: 202px 1fr;
+    }
   }
   
   &__logo-link {
@@ -27,6 +31,10 @@
     grid-template-columns: repeat(2, auto);
     gap: 20px 71px;
     justify-content: center;
+
+    @include vp-1439 {
+      display: none;
+    }
   }
   
   &__nav-link {
