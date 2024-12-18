@@ -1,5 +1,9 @@
 .about-company {
   margin: 0 0 70px;
+  
+  @include vp-1439 {
+    margin:  0 0 40px;
+  }
 }
 
 .about-company__wrapper {
@@ -7,6 +11,10 @@
   grid-template-columns: 300px 1fr;
   gap: 30px 50px;
   margin: 0 0 50px;
+
+  @include vp-1439 {
+    grid-template-columns: 1fr;
+  }
 }
 
 .about-company__image {

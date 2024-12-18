@@ -7,14 +7,14 @@
   align-items: center;
 
   @include vp-1439 {
-    min-height: unset;
+    min-height: auto;
     padding: 55px 0;
   }
 
   @include vp-767 {
-    align-items: flex-start;
-    min-height: 504px;
+    padding: 40px 0 260px;
     position: relative;
+    margin: 0 0 30px;
   }
 
   &__wrapper {
