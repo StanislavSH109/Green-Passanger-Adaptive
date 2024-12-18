@@ -63,4 +63,9 @@
   font-weight: 700;
   text-transform: uppercase;
   color: $color-verdun-green;
+  
+  @include vp-1439 {
+    font-size: 15px;
+    line-height: 20px;
+  }
 }

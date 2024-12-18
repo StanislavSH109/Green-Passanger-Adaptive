@@ -948,6 +948,12 @@ input[type=search]::-webkit-search-results-decoration {
   text-transform: uppercase;
   color: #475009;
 }
+@media (max-width: 1439px) {
+  .aside-nav__link-text {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
 
 .social {
   margin: 0;
