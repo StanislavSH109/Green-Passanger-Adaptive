@@ -17,8 +17,6 @@
     flex-direction: column;
     gap: 50px;
     margin: 0 0 40px;
-    position: relative;
-  }
 }
 
 .about-company__image {
@@ -36,6 +34,10 @@
     right: -30px;
     z-index: -1;
     opacity: .15;
+  }
+
+  @include vp-767 {
+    display: none;
   }
 }
 

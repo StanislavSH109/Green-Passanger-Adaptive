@@ -798,6 +798,11 @@ input[type=search]::-webkit-search-results-decoration {
     opacity: 0.15;
   }
 }
+@media (max-width: 767px) {
+  .about-company__image {
+    display: none;
+  }
+}
 
 .about-company__description {
   display: flex;
@@ -945,6 +950,12 @@ input[type=search]::-webkit-search-results-decoration {
     margin: 0 0 20px;
   }
 }
+@media (max-width: 767px) {
+  .aside-nav__heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 .aside-nav__list {
   margin: 0;
@@ -956,11 +967,15 @@ input[type=search]::-webkit-search-results-decoration {
 }
 @media (max-width: 1439px) {
   .aside-nav__list {
-    display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     gap: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .aside-nav__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
