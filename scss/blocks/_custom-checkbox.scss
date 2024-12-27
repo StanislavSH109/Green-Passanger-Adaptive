@@ -65,6 +65,11 @@
 .custom-checkbox__heading {
   font-size: 18px;
   line-height: 24px;
+
+  @include vp-1439 {
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
 
 .custom-checkbox__text {
