@@ -19,6 +19,11 @@
     gap: 50px;
     margin: 0 0 40px;
     position: relative;
+  }
+
+  @include vp-767 {
+    gap: 30px;
+  }
 }
 
 .about-company__image {
